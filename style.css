@@ -1,0 +1,82 @@
+.poll {
+  margin: 0;
+  padding: 10px;
+  color: #ffffff;
+  background-color: #232323;
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 100%;
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+}
+
+.buttons_container {
+  margin-top: 1rem
+}
+
+.title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  letter-spacing: 0.05rem;
+}
+
+.input_field {
+  border: none;
+  background-color: #2c2c2c;
+  color: white;
+  padding: 0.75rem 1.25rem;
+  margin-right: 1rem;
+  margin-top: 1rem;
+  border-radius: 5px;
+}
+
+.option {
+  margin-top: 1rem;
+  margin-botton: 1rem;
+  background-color: #4863d5;
+  color: "#FFFFFF";
+  padding: 0.5rem 1.25rem;
+  color: white;
+  margin-right: 1rem;
+  border: none;
+  border-radius: 0.5rem;
+  max-width: 10rem;
+}
+
+.option_container {
+  display: flex;
+  flex-direction: row;
+  justify-content: ;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.progress_bar_container {
+  display: flex;
+  margin-top: 1rem;
+  flex-direction: row;
+  align-items: center;
+}
+
+.progress_bar {
+  width: 150px;
+  /* Set the width to 300 pixels */
+  height: 20px;
+  /* Set the height to 20 pixels */
+}
+
+.progress_text {
+  font-family: "Arial", sans-serif;
+  color: white;
+  margin-left: 1rem;
+  font-size: 1.25rem;
+}
+
+.progress_label {
+  font-family: "Arial", sans-serif;
+  color: white;
+  font-size: 1.25rem;
+}
